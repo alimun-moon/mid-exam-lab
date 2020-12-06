@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid LAB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="header">
+            <h2>Register</h2>
+            <hr>
+            Feel free to contact us anytime for other additional information!
+        </div>
+        <br><br>
+        <div class="types">
+            <div>Select Institution: 
+                <Select class="select">
+                    <option></option>
+                    <option>Kurmitola General Hospital</option>
+                    <option>Amin Bazar Hospital</option>
+                    <option>Jinjira Specialized Hospital</option>
+                    <option>Sajida Foundation Hospital</option>
+                    <option>Mohanagar General Hospita</option>
+                    <option>Bangladesh Railway Hospital</option>
+                </Select>
+        </div>
+        <br>
+        <div>
+            <form class="form">
+
+                <label>Personal Information<br><br>
+                </label>
+                Name<br>
+                <input 
+                    type="text" 
+                    name="first_name" 
+                    placeholder="First Name"
+                    style="width: 48%; height: 30px;"
+                    required
+                />  
+                <input 
+                    type="text" 
+                    name="last_name" 
+                    placeholder="Last Name" 
+                    style="width: 48%; height: 30px;"
+                    required
+                />
+                <br>
+                <br>
+                Mobile number<br>
+                <input 
+                    type="text"
+                    name="mobile_no"
+                    value="+880-1"
+                    style="width: 98%; height: 30px;"
+                    required
+                />
+                <br>
+                <br>
+
+                Email<br>
+                <input 
+                    type="email" 
+                    name=" mail" 
+                    placeholder="Email address" 
+                    style="width: 98%; height: 30px;"
+                    required
+                />
+                <br>
+                <br>
+
+                Emergency Contact Number<br>
+                <input 
+                    type="text" 
+                    name="emergency_contact" 
+                    value="+880-1" 
+                    style="width: 98%; height: 30px;"
+                    required
+                />
+                <br>
+                <br>
+
+                Address<br>
+                <input 
+                    type="text" 
+                    name="address" 
+                    placeholder="House_no."
+                    required
+                    class="address"
+                />  
+                <input 
+                    type="text" 
+                    name="address" 
+                    placeholder="Road"
+                    required
+                    class="address"
+                />
+                <input 
+                    type="text" 
+                    name="address" 
+                    placeholder="City"
+                    required
+                    class="address"
+                />
+                <input 
+                    type="text" 
+                    name="address" 
+                    placeholder="Zip Code"
+                    required
+                    class="address"
+                />
+                <br>
+                <br>
+
+                Age: 
+                    <input
+                        type="text"
+                        name="age"
+                        placeholder="Age"
+                        style="width: 22%; height: 30px;"
+                        required
+                    />
+
+                Gender: 
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="male"
+                    /> Male
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="female"
+                    /> Female
+                <br>
+                <br>
+
+                City: 
+                    <Select style="width: 56%; height: 30px;">
+                        <option></option>
+                        <option>Dhaka</option>
+                        <option>Sylhet</option>
+                        <option>Chittagong</option>
+                        <option>Khulna</option>
+                        <option>Rajshahi</option>
+                        <option>Comilla</option>
+                    </Select>
+                <br>
+                <br>
+                <br>
+                <label>Coronavirus: COVID-19 Related<br>
+                </label>
+                <br>
+
+                When did you first suspected?<br>
+                Date: 
+                <input 
+                    type="date" 
+                    name="Date"
+                    required
+                    class="date"
+                />
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                Time:
+                <input 
+                    type="time"
+                    required
+                    class="date"
+                />
+                <br>
+                <br>
+
+                Any previous cases? &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input 
+                    type="radio"
+                    name="record"
+                    value="on"
+                />Yes  &nbsp; &nbsp;
+
+                <input 
+                    type="radio"
+                    name="record"
+                    value="on"
+                />No
+            <br>
+            <br>
+
+            Any previous medical history? &nbsp;
+                <input 
+                    type="radio"
+                    name="record"
+                    value="on"
+                />Yes  &nbsp; &nbsp;
+
+                <input 
+                    type="radio"
+                    name="record"
+                    value="on"
+                />No
+            <br>
+            <br>
+            <br>
+
+            What sypmptoms do you have?<br>
+
+            <input type="checkbox" name="sypmptoms" value="on"> &nbsp; Coughing <br>
+            <input type="checkbox" name="sypmptoms" value="on"> &nbsp; Fever/ Chills <br>
+            <input type="checkbox" name="sypmptoms" value="on"> &nbsp; Shortness of breath <br>
+            <input type="checkbox" name="sypmptoms" value="on"> &nbsp; Breathing difficulties <br>
+            <input type="checkbox" name="sypmptoms" value="on"> &nbsp; Pain or pressure in the chest <br>
+
+            <br>
+            <br>
+            <br>
+
+            <a href="index.html">
+                <input type="button" value="Submit" class="button">
+            </a>
+
+            <br>
+            <br>
+            <br>
+        </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

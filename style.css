@@ -1,0 +1,81 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: cursive;
+    background-color: rgb(36, 39, 39);
+    color: rgb(41, 39, 39);
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.maindiv{
+    width: 60%;
+    height: auto;
+    background-color: rgb(218, 229, 231);
+    padding-bottom: 10%;
+}
+.header{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.header h2{
+    color: rgb(152, 141, 179);
+}
+hr{
+    border: 1px dashed;
+    width: 50%;
+}
+
+.types{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.select{
+    width: 20%; 
+    height: 35px;
+    border-radius: 10px;
+}
+
+.form{
+    width:100%;
+    height: auto;
+    text-align: left;
+}
+
+.address{
+    width: 10%;
+    height: 30px;
+}
+.date{
+    width: 40%;
+}
+.text{
+    width: 44%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.date{
+    width: 19%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.button{
+    font-size: 20px;
+    background-color: rgb(148, 97, 163);
+    height: 50px;
+    width: 15%;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background-color: rgb(228, 241, 197);
+    color: rgb(0, 0, 0);
+    opacity: 30%;
+}
